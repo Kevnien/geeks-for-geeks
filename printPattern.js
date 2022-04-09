@@ -6,10 +6,10 @@
 // 3 3 3 2 2 2 1 1 1
 // 3 3 2 2 1 1
 // 3 2 1
+// Note : Instead of printing new line print a "$" without quotes.
 
 class Solution {
   printPat(n){
-    //code here
     let strings = [];
     let bigString = '';
     for (let i = n; i > 0; i--) {
