@@ -23,7 +23,7 @@ class Solution {
         let string = '';
         for (let j = n - 1; j >= 0; j--) {
             string += strings[j];
-            strings[j] = strings[j].substring(2);
+            strings[j] = strings[j].substring(`${j+1} `.length);
         }
         bigString += string + '$';
     }
